@@ -36,7 +36,7 @@ function App() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <MenuLink href="/home" title="Home">
+              <MenuLink href="/home">
                 Home
               </MenuLink>
             </NavigationMenuItem>
