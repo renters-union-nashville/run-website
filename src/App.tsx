@@ -36,7 +36,7 @@ function App() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <MenuLink href="/" title="Home">
+              <MenuLink href="/home" title="Home">
                 Home
               </MenuLink>
             </NavigationMenuItem>
@@ -51,7 +51,7 @@ function App() {
           </NavigationMenuList>
         </NavigationMenu>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/home?" element={<HomePage />} />
           <Route path="/events" element={<EventsPage />} />
         </Routes>
       </AppContext.Provider>
